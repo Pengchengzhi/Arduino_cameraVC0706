@@ -31,6 +31,6 @@ Use a USB to serial port converter, connect camera Tx to converter Rx, camera Rx
 
 And chose your serial port, then
 
-> “Open”->Fbuf Ctrl->Stop CFbuf->Sel File->Read
+> “Open” ---> Fbuf Ctrl ---> Stop CFbuf ---> Sel File ----> Read
 
-So you can see your pictures.
+And you can see your pictures.
