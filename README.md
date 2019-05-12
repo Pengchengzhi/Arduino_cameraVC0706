@@ -1,2 +1,2 @@
 # Arduino_cameraVC0706
-Use camera and several sensors to get data and store their data in SD card
+Get environment data with camera and other sensors, store them in SD card and cover regularly.
