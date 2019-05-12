@@ -27,6 +27,8 @@ SD MOSI    --->   Pin 51
 
 SD MISO    --->   Pin 50
 ## How to use serial port debugging tools for camera VC0706
+The following is for VC0706CommTool, not for XCOM.
+
 Use a USB to serial port converter, connect camera Tx to converter Rx, camera Rx to converter Tx.
 
 And chose your serial port, then
