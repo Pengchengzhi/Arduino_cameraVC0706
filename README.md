@@ -27,3 +27,10 @@ SD MOSI    --->   Pin 51
 
 SD MISO    --->   Pin 50
 ## How to use serial port debugging tools for camera VC0706
+Use a USB to serial port converter, connect camera Tx to converter Rx, camera Rx to converter Tx.
+
+And chose your serial port, then
+
+> “Open”->Fbuf Ctrl->Stop CFbuf->Sel File->Read
+
+So you can see your pictures.
