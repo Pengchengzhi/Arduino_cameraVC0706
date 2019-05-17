@@ -9,23 +9,17 @@ Add libs to your libraries and run `final.ino`.
 ## Hardware connection
 Chose arduino mega as mian board, DHT22 as temperature and humidity sensor, camera VC0706 as camera, a infrared sensor and a buzzer to set alarm.
 
-DHT22      --->   Pin 7
-
-Buzzer     --->   Pin 8
-
-Infrared   --->   Pin A0
-
-Camera Tx  --->   Pin A15
-
-Camera Rx  --->   Pin 3
-
-SD CS      --->   Pin 53
-
-SD SCK     --->   Pin 52
-
-SD MOSI    --->   Pin 51
-
-SD MISO    --->   Pin 50
+| Sensors   | Arduino  |
+| :-----:   | :-----:  |
+|  DHT22    |  Pin 7   |
+|  Buzzer   |  Pin 8   |
+| Infrared  |  Pin A0  |
+| Camera Tx |  Pin A15 |
+| Camera Rx |  Pin 3   |
+|   SD CS   |  Pin 53  |
+|   SD SCK  |  Pin 52  |
+|  SD MOSI  |  Pin 51  |
+|  SD MISO  |  Pin 50  |
 ## How to use serial port debugging tools for camera VC0706
 The following is for VC0706CommTool, not for XCOM.
 
