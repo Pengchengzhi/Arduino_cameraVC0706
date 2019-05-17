@@ -3,7 +3,7 @@ Get environment data with camera and other sensors, store them in SD card and co
 ## Project function
 This project is like an IoT system, but locally distributed, store all data in SD card.
 
-Sensors can get environment temperature, humidity, and infrared. If environment conditions can't meet the requirements we set, the buzzer will set the alarm. Plus camera can take pictures after every certain delay, and all data will be stored in SD card. Environment temperature, humidity and infrared will be write in a txt, and pictures will be named like "IMAGE000.jpg". All data in SD card can be covered after certain times of storage.
+Sensors can get environment temperature, humidity, and infrared. If environment conditions can't meet the requirements we set, the buzzer will shout to alarm. Plus camera can take pictures after every certain delay, and all data will be stored in SD card. Environment temperature, humidity and infrared will be write in a txt, and pictures will be named like "IMAGE000.jpg". All data in SD card can be covered after certain times of storage.
 ## Pre-requirements
 Add lib to your libraries and run final.ino.
 ## Hardware connection
