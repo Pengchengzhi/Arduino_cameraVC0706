@@ -7,7 +7,7 @@ Sensors can get environment temperature, humidity, and infrared. If environment 
 ## Pre-requirements
 Add libs to your libraries and run `final.ino`.
 ## Hardware connection
-Chose arduino mega as mian board, DHT22 as temperature and humidity sensor, camera VC0706 as camera, a infrared sensor and a buzzer to set alarm.
+* Chose arduino mega as mian board, DHT22 as temperature and humidity sensor, camera VC0706 as camera, a infrared sensor and a buzzer to set alarm.
 
 | Sensors   | Arduino  |
 | :-----:   | :-----:  |
@@ -21,12 +21,12 @@ Chose arduino mega as mian board, DHT22 as temperature and humidity sensor, came
 |  SD MOSI  |  Pin 51  |
 |  SD MISO  |  Pin 50  |
 ## How to use serial port debugging tools for camera VC0706
-The following is for VC0706CommTool, not for XCOM.
+* The following is for VC0706CommTool, not for XCOM.
 
 Use a USB to serial port converter, connect camera Tx to converter Rx, camera Rx to converter Tx.
 
 And chose your serial port, then
 
-> “Open” ---> Fbuf Ctrl ---> Stop CFbuf ---> Sel File ----> Read
+>`“Open” ---> Fbuf Ctrl ---> Stop CFbuf ---> Sel File ----> Read`
 
-And you can see your pictures.
+And you can see the pictures.
