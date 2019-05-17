@@ -25,7 +25,7 @@ Add libs to your libraries and run `final.ino`.
 
 Use a USB to serial port converter, connect `camera Tx` to `converter Rx`, `camera Rx` to `converter Tx`.
 
-And chose your serial port, then
+And chose the correct serial port, then
 
 `“Open” ---> Fbuf Ctrl ---> Stop CFbuf ---> Sel File ----> Read`
 
