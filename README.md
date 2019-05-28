@@ -1,5 +1,5 @@
 # Arduino_cameraVC0706
-Get environment data with camera and other sensors, store them in SD card and cover regularly.
+Description: Get environment data with camera and other sensors, store them in SD card and cover regularly.
 ## Project function
 This project is like an IoT system, but locally distributed, store all data in SD card.
 
