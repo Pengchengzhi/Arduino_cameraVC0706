@@ -3,7 +3,7 @@ Description: Collect environment data with camera and other sensors, store them 
 ## Project function
 This project is like an IoT system, but locally distributed, store all data in SD card.
 
-Sensors can collect environment temperature, humidity, and infrared. If environment conditions can't meet the requirements we set, the buzzer will shout to alarm. The camera can take pictures every certain delay, and all data will be stored in SD card. Environment temperature, humidity and infrared will be write in a `.txt` file, and pictures will be named like `IMAGE000.jpg`. All data in SD card can be covered after certain times of storage.
+Sensors can collect environment temperature, humidity, and infrared. If environment conditions can't meet the requirements we set, turn on the buzzer. CamerVC0706 can take pictures repeatingly after delay, and all data will be stored in SD card. Environment temperature, humidity and infrared will be write in a `.txt` file, and pictures will be named like `IMAGE000.jpg`. Those data in SD card can be covered after certain times of storage.
 ## Pre-requirements
 Add libs to your libraries and run `final.ino`.
 ## Hardware connection
